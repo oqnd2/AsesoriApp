@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "305521047928",
+    "firebase_url": "https://asesoriapp-c0fba-default-rtdb.firebaseio.com",
+    "project_id": "asesoriapp-c0fba",
+    "storage_bucket": "asesoriapp-c0fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305521047928:android:2a23e97daeb06e2a09b08d",
+        "android_client_info": {
+          "package_name": "com.oqnd.asesoriapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305521047928-o8d6l1go7cj746qu7hfcg94ffkokaqu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOc8zeLZNiiLbeLl1NmlA0EZr0zXD-jZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305521047928-gg8ve1jv60dt7bpk2j1acdu2aigf5jqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

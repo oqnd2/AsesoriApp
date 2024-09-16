@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgProfileImageMsg"
+        android:src="@drawable/ic_person"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/txtSeeMsg"
+        android:text="Hola, ¿Como vas?"
+        android:background="@drawable/background_left"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/imgProfileImageMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgSendLeft"
+        android:layout_toEndOf="@id/imgProfileImageMsg"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/txtSeen"
+        android:layout_below="@id/txtSeeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

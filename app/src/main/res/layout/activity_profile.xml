@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/back_image"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"/>
+
+            <ImageView
+                android:id="@+id/ProfileImage"
+                android:background="#E9E9E9"
+                android:layout_marginTop="140dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="140dp"
+                android:scaleType="centerCrop"
+                android:layout_height="140dp"/>
+
+            <ImageView
+                android:id="@+id/editImage"
+                android:src="@drawable/edit"
+                android:layout_marginTop="255dp"
+                android:layout_marginStart="250dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/profileUserName"
+                android:text="Nombre de usuario"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:text="Email"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp">
+
+                <EditText
+                    android:id="@+id/profileName"
+                    android:hint="Nombre(s)"
+                    android:inputType="textPersonName|textCapWords"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_person"
+                    android:padding="15dp"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp">
+
+                <EditText
+                    android:id="@+id/profileLastName"
+                    android:hint="Apellido(s)"
+                    android:inputType="textPersonName|textCapWords"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_person"
+                    android:padding="15dp"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp">
+
+                <EditText
+                    android:id="@+id/profilePhone"
+                    android:hint="Teléfono"
+                    android:inputType="number"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:padding="15dp"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp">
+
+                <EditText
+                    android:id="@+id/profileAge"
+                    android:hint="Edad"
+                    android:inputType="number"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_age"
+                    android:padding="15dp"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:text="Guardar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                app:icon="@drawable/ic_save"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
